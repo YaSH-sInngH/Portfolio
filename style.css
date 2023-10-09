@@ -305,6 +305,7 @@ html{
     height: 550px;
     background: rgb(105, 104, 104);
     border-radius: 10%;
+    box-shadow: 13px 12px 21px black;
 }
 .skill-set h1{
     text-align: center;
@@ -392,8 +393,13 @@ html{
 .mysql{
     width: 70%;
 }
+.myskillimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .myskillimage img{
-    width: 500px;
+    width: 20rem;
 }
 .headerskill{
     height: 50px;
@@ -590,6 +596,10 @@ html{
         cursor: none;
     }
     
+    .loading h1{
+        font-size: 2rem;
+    }
+
     /* Navbar */
     
     .container ul {
@@ -698,8 +708,13 @@ html{
     .bar{
         width: 100px;
     }
+    .myskillimage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .myskillimage img{
-        width: 350px;
+        width: 200px;
         /* margin: 40px; */
     }
 
