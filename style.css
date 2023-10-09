@@ -408,8 +408,8 @@ html{
 
 .myproject{
     /* height: 1000px; */
-    /* background: linear-gradient(135deg, rgb(220, 120, 6), orangered); */
-    background: rgb(235, 159, 17);
+    background: linear-gradient(135deg, rgb(220, 159, 6), rgb(216, 89, 42));
+    /* background: rgb(235, 159, 17); */
     transition: all 0.7s linear;
 }
 .common{
